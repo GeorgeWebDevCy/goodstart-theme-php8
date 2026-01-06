@@ -1,8 +1,10 @@
 <?php
-add_action('widgets_init', create_function('', 'return register_widget("DF_timeline");'));
+add_action('widgets_init', function() {
+	register_widget('DF_timeline');
+});
 
 class DF_timeline extends WP_Widget {
-	function DF_timeline() {
+	function __construct() {
 		 parent::__construct (false, $name = THEME_FULL_NAME.' '.esc_html__("Timeline", THEME_NAME));	
 	}
 

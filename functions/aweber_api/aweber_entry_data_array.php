@@ -15,45 +15,44 @@ class AWeberEntryDataArray implements ArrayAccess, Countable, Iterator  {
         $this->parent = $parent;
     }
 
-    public function count() {
-        return sizeOf($this->data);
+    public function count(): int {
+        return (int) sizeOf($this->data);
     }
 
-    public function offsetExists($offset) {
+    public function offsetExists($offset): bool {
         return (isset($this->data[$offset]));
     }
 
-    public function offsetGet($offset) {
+    public function offsetGet($offset): mixed {
         return $this->data[$offset];
     }
 
-    public function offsetSet($offset, $value) {
+    public function offsetSet($offset, $value): void {
         $this->data[$offset] = $value;
         $this->parent->{$this->name} = $this->data;
-        return $value;
     }
 
-    public function offsetUnset($offset) {
+    public function offsetUnset($offset): void {
         unset($this->data[$offset]);
     }
 
-    public function rewind() {
+    public function rewind(): void {
         $this->counter = 0;
     }
 
-    public function current() {
+    public function current(): mixed {
         return $this->data[$this->key()];
     }
 
-    public function key() {
+    public function key(): mixed {
         return $this->keys[$this->counter];
     }
 
-    public function next() {
+    public function next(): void {
         $this->counter++;
     }
 
-    public function valid() {
+    public function valid(): bool {
         if ($this->counter >= sizeOf($this->data)) {
             return false;
         }

@@ -136,7 +136,9 @@
 
 	$shopCount = 12; 
 	if($shopCount) {
-		add_filter( 'loop_shop_per_page', create_function( '$cols', 'return '.$shopCount.';' ), 20 );
+		add_filter( 'loop_shop_per_page', function( $cols ) use ( $shopCount ) {
+			return $shopCount;
+		}, 20 );
 	}
 
 	if ( df_is_woocommerce_activated() == true && version_compare( WOOCOMMERCE_VERSION, "2.1" ) >= 0 ) {

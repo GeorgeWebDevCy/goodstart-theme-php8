@@ -1,8 +1,10 @@
 <?php
-add_action('widgets_init', create_function('', 'return register_widget("DF_latest_comments");'));
+add_action('widgets_init', function() {
+	register_widget('DF_latest_comments');
+});
 
 class DF_latest_comments extends WP_Widget {
-	function DF_latest_comments() {
+	function __construct() {
 		 parent::__construct (false, $name = THEME_FULL_NAME.esc_html__(" Latest Comments", THEME_NAME));	
 	}
 

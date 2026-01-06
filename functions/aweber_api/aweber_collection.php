@@ -241,15 +241,15 @@ class AWeberCollection extends AWeberResponse implements ArrayAccess, Iterator, 
      * Allows this object to be accessed via bracket notation (ie $obj[$x])
      * http://php.net/manual/en/class.arrayaccess.php
      */
-    public function offsetSet($offset, $value) { }
-    public function offsetUnset($offset) {}
-    public function offsetExists($offset) {
+    public function offsetSet($offset, $value): void { }
+    public function offsetUnset($offset): void {}
+    public function offsetExists($offset): bool {
         if ($offset >=0 && $offset < $this->total_size) {
             return true;
         }
         return false;
     }
-    public function offsetGet($offset) {
+    public function offsetGet($offset): mixed {
         if (!$this->offsetExists($offset))    return null;
         if (!empty($this->_entries[$offset])) return $this->_entries[$offset];
 
@@ -264,23 +264,23 @@ class AWeberCollection extends AWeberResponse implements ArrayAccess, Iterator, 
      * http://php.net/manual/en/class.iterator.php
      */
     protected $_iterationKey = 0;
-    public function current() {
+    public function current(): mixed {
         return $this->offsetGet($this->_iterationKey);
     }
 
-    public function key() {
+    public function key(): mixed {
         return $this->_iterationKey;
     }
 
-    public function next() {
+    public function next(): void {
         $this->_iterationKey++;
     }
 
-    public function rewind() {
+    public function rewind(): void {
         $this->_iterationKey = 0;
     }
 
-    public function valid() {
+    public function valid(): bool {
         return $this->offsetExists($this->key());
     }
 
@@ -290,8 +290,8 @@ class AWeberCollection extends AWeberResponse implements ArrayAccess, Iterator, 
      * Allows PHP's count() and sizeOf() functions to act on this object
      * http://www.php.net/manual/en/class.countable.php
      */
-    public function count() {
-        return $this->total_size;
+    public function count(): int {
+        return (int) $this->total_size;
     }
 
 }

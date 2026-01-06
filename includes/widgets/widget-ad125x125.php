@@ -1,8 +1,10 @@
 <?php
-add_action('widgets_init', create_function('', 'return register_widget("DF_ad125x125");'));
+add_action('widgets_init', function() {
+	register_widget('DF_ad125x125');
+});
 
 class DF_ad125x125 extends WP_Widget {
-	function DF_ad125x125 () {
+	function __construct() {
 		 parent::__construct (false, $name = THEME_FULL_NAME.' Custom 125x125 Ad');	
 	}
 

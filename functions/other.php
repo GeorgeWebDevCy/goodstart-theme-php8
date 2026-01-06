@@ -597,7 +597,8 @@ function df_get_page($name, $type="array") {
 	$pageID = array();
 	foreach($pages as $p) {
 		$meta = get_post_custom_values("_wp_page_template",$p->ID);
-		if($meta[0] == "template-".$name.".php" || strpos($meta[0],"template-".$name.".php") !== false) {
+		$template = (is_array($meta) && isset($meta[0])) ? $meta[0] : '';
+		if($template == "template-".$name.".php" || ($template !== '' && strpos($template,"template-".$name.".php") !== false)) {
 			$pageID[]=$p->ID;
 		}
 	}
@@ -622,7 +623,8 @@ function df_get_page_array($array) {
 	foreach($array as $name) {
 		foreach($pages as $p) {
 			$meta = get_post_custom_values("_wp_page_template",$p->ID);
-			if($meta[0] == "template-".$name.".php" || strpos($meta[0],"template-".$name.".php") !== false) {
+			$template = (is_array($meta) && isset($meta[0])) ? $meta[0] : '';
+			if($template == "template-".$name.".php" || ($template !== '' && strpos($template,"template-".$name.".php") !== false)) {
 				$pageID[]=$p->ID;
 			}
 		}

@@ -1,8 +1,10 @@
 <?php
-add_action('widgets_init', create_function('', 'return register_widget("DF_about");'));
+add_action('widgets_init', function() {
+	register_widget('DF_about');
+});
 
 class DF_about extends WP_Widget {
-	function DF_about() {
+	function __construct() {
 		 parent::__construct (false, $name = THEME_FULL_NAME.' About',array( 'description' => __( "Widget With Image And Text", THEME_NAME )));	
 	}
 

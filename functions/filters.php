@@ -457,11 +457,15 @@ function the_author_posts_link_css_class_single($output) {
 }
 
 
-load_theme_textdomain(THEME_NAME, get_template_directory() . '/languages');
+function df_load_theme_textdomain() {
+	load_theme_textdomain(THEME_NAME, get_template_directory() . '/languages');
 	$locale = get_locale();
 	$locale_file = get_template_directory() . "/languages/$locale.php";
-	if ( is_readable( $locale_file ) )
+	if ( is_readable( $locale_file ) ) {
 		require_once( $locale_file );
+	}
+}
+add_action('after_setup_theme', 'df_load_theme_textdomain');
 
 
 add_filter('get_the_excerpt', 'df_excerpt');

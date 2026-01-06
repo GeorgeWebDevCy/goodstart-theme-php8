@@ -1,8 +1,10 @@
 <?php
-add_action('widgets_init', create_function('', 'return register_widget("DF_reviews");'));
+add_action('widgets_init', function() {
+	register_widget('DF_reviews');
+});
 
 class DF_reviews extends WP_Widget {
-	function DF_reviews() {
+	function __construct() {
 		 parent::__construct (false, $name = THEME_FULL_NAME.' '.esc_html__("Reviews", THEME_NAME));	
 	}
 

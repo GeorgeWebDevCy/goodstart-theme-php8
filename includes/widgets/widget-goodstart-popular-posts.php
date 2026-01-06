@@ -1,8 +1,10 @@
 <?php
-add_action('widgets_init', create_function('', 'return register_widget("DF_popular_posts");'));
+add_action('widgets_init', function() {
+	register_widget('DF_popular_posts');
+});
 
 class DF_popular_posts extends WP_Widget {
-	function DF_popular_posts() {
+	function __construct() {
 		 parent::__construct (false, $name = THEME_FULL_NAME.' '.esc_html__("Popular Posts", THEME_NAME));	
 	}
 

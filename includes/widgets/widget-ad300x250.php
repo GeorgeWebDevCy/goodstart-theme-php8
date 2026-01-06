@@ -29,7 +29,7 @@ class tz_ad300_widget extends WP_Widget {
 	/* -------- Widget setup -------- */
 	/* ---------------------------- */
 	
-	function TZ_Ad300_Widget() {
+	function __construct() {
 	
 		/* Widget settings */
 		$widget_ops = array( 'classname' => 'tz_ad300_widget', 'description' => esc_html__('A widget that allows the display and configuration of of a single 300x250 Banner.', 'framework') );

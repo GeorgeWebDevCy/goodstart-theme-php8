@@ -13,6 +13,9 @@ get_template_part(THEME_ADMIN_INCLUDES."functions/default-values");
  
 class DifferentThemesManagment {
 
+	public $themename = '';
+	public $themeslug = '';
+	public $type = false;
 	var $options = array();
 	var $before_item_title = '<h2>';
 	var $after_item_title = '</h2>';
@@ -20,10 +23,14 @@ class DifferentThemesManagment {
 	var $after_item = '</div>';
 	private static $i = 0;
  
-	function DifferentThemesManagment($themename, $themeslug, $type=false) {
-		$this->themename=$themename;
-		$this->themeslug=$themeslug;
-		$this->type=$type;
+	public function __construct($themename, $themeslug, $type = false) {
+		$this->themename = $themename;
+		$this->themeslug = $themeslug;
+		$this->type = $type;
+	}
+
+	public function DifferentThemesManagment($themename, $themeslug, $type = false) {
+		$this->__construct($themename, $themeslug, $type);
 	}
 
     private function i() {
