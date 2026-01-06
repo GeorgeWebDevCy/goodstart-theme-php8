@@ -1,5 +1,5 @@
 <?php
-function df_custom_nav_btn_links($search=0, $page_num) {
+function df_custom_nav_btn_links($page_num, $search = 0) {
 	$pageURL = 'http://';
 	$pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
 	if ($search == "") {
@@ -87,14 +87,14 @@ function gallery_nav_btns($page_num,$max_num_pages,$search=0) {
 							}
 							
 							for($i = $start; $i <= $end; $i++) {
-								?><!--<a <?php if($i == $page_num) {?> class="active" <?php } else { ?> class="default" <?php } ?> href="<?php echo esc_url(df_custom_nav_btn_links($search, $i)); ?>"><span><?php echo intval($i);?></span></a>--><?php
+								?><!--<a <?php if($i == $page_num) {?> class="active" <?php } else { ?> class="default" <?php } ?> href="<?php echo esc_url(df_custom_nav_btn_links($i, $search)); ?>"><span><?php echo intval($i);?></span></a>--><?php
 							}	
 						?>
 						
-						<a href="<?php if ($page_num < $max_num_pages) {$new_page = $page_num + 1;} else {$new_page = $page_num;} echo esc_url(df_custom_nav_btn_links($search, $new_page));?>" class="next"> </a>
-						<!--<a href="<?php if ($page_num > 1) { $new_page = $page_num - 1;} else {$new_page = 1;} echo esc_url(df_custom_nav_btn_links($search, $new_page)); ?>" class="prev"><?php printf ( esc_html__( 'Previous' , THEME_NAME ));?></a>-->
+						<a href="<?php if ($page_num < $max_num_pages) {$new_page = $page_num + 1;} else {$new_page = $page_num;} echo esc_url(df_custom_nav_btn_links($new_page, $search));?>" class="next"> </a>
+						<!--<a href="<?php if ($page_num > 1) { $new_page = $page_num - 1;} else {$new_page = 1;} echo esc_url(df_custom_nav_btn_links($new_page, $search)); ?>" class="prev"><?php printf ( esc_html__( 'Previous' , THEME_NAME ));?></a>-->
 			<?php } else { ?>
-						<a href="<?php echo df_custom_nav_btn_links($search, 2);?>" class="next"> </a>
+						<a href="<?php echo df_custom_nav_btn_links(2, $search);?>" class="next"> </a>
 			<?php } ?>
 		</div>
 		<?php

@@ -117,7 +117,7 @@ function mr_image_resize($url, $width=null, $height=null, $crop=true, $align='c'
       $metadata = wp_get_attachment_metadata($get_attachment[0]->ID);
       if (isset($metadata['image_meta'])) {
         $md = $saved['width'] . 'x' . $saved['height'];
-        if ($crop) $md .= ($align) ? "_${align}" : "_c";
+        if ($crop) $md .= ($align) ? "_{$align}" : "_c";
         $metadata['image_meta']['resized_images'][] = $md;
         wp_update_attachment_metadata($get_attachment[0]->ID, $metadata);
       }
@@ -207,15 +207,15 @@ function mr_common_info($args) {
   $name = wp_basename($file_path, ".$ext");
 
   // Suffix applied to filename
-  $suffix = "${dest_width}x${dest_height}";
+  $suffix = "{$dest_width}x{$dest_height}";
 
   // Set align info on file
   if ($crop) {
-    $suffix .= ($align) ? "_${align}" : "_c";
+    $suffix .= ($align) ? "_{$align}" : "_c";
   }
 
   // Get the destination file name
-  $dest_file_name = "${dir}/${name}-${suffix}.${ext}";
+  $dest_file_name = "{$dir}/{$name}-{$suffix}.{$ext}";
   
   // Return info
   return array(
