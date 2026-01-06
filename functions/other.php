@@ -1756,7 +1756,7 @@ function add_differentthemes_btn_tinymce_plugin($plugin_array) {
 			indent:false,
 			toolbar1:"bold,italic,strikethrough,bullist,numlist,blockquote,hr,alignleft,aligncenter,alignright,link,unlink,wp_more,spellchecker,wp_fullscreen,wp_adv",
 			toolbar2:"formatselect,underline,alignjustify,forecolor,pastetext,removeformat,charmap,outdent,indent,undo,redo,wp_help",
-			toolbar3:"<?php $df_mce_buttons_3 = apply_filters( 'df_mce_buttons_3', array() );echo implode($df_mce_buttons_3, ',');?>",
+			toolbar3:"<?php $df_mce_buttons_3 = apply_filters( 'df_mce_buttons_3', array() );echo implode(',', (array) $df_mce_buttons_3);?>",
 			body_class:"content post-type-page post-status-publish",
 		};
 	</script>

@@ -1,9 +1,9 @@
 <?php
 global $post;
 function df_register_my_session() {
-  	if(!session_id()){
-    	session_start();
- 	}
+	if (session_status() === PHP_SESSION_NONE && !headers_sent()) {
+		session_start();
+	}
 }
 
 add_action('init', 'df_register_my_session');
