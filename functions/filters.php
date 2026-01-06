@@ -217,15 +217,19 @@ function DF_fields($fields) {
  * 							CUSTOM COMMENT FIELDS							*
  * -------------------------------------------------------------------------*/
  
-function DF_fields_rules($fields) {
-	$fields['rules'] = '
+function DF_fields_rules($fields = null) {
+	$rules = '
 						<p class="comment-info">
 							<i class="fa fa-info"></i>
 							<strong>'.esc_html__("Your data will be safe!", THEME_NAME).'</strong>
-							<span>'.esc_html__( 'Your e-mail address will not be published. Also other data will not be shared with third person. Required fields marked as ', THEME_NAME ).'<span class="c_required">*</span</span>
+							<span>'.esc_html__( 'Your e-mail address will not be published. Also other data will not be shared with third person. Required fields marked as ', THEME_NAME ).'<span class="c_required">*</span></span>
 						</p>
 	';
-	//print $fields['rules'];
+	if (is_array($fields)) {
+		$fields['rules'] = $rules;
+		return $fields;
+	}
+	echo $rules;
 }
 
 /* -------------------------------------------------------------------------*
