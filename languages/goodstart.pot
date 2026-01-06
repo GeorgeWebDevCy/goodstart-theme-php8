@@ -1,0 +1,2435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GooDStart\n"
+"POT-Creation-Date: 2015-04-17 18:13+0200\n"
+"PO-Revision-Date: 2015-04-17 18:13+0200\n"
+"Last-Translator: \n"
+"Language-Team: Different Themes <support@different-themes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html__;esc_html_e;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:37
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:44
+msgid "404"
+msgstr ""
+
+#: 404.php:45
+msgid "Something went terribly wrong..."
+msgstr ""
+
+#: 404.php:46
+msgid ""
+"But don't worry, it can happen to the best of us - and it just happen to you!"
+msgstr ""
+
+#: 404.php:47
+msgid "You can search something else or read this text one more time."
+msgstr ""
+
+#: 404.php:49 includes/top.php:83
+msgid "Type and press enter..."
+msgstr ""
+
+#: 404.php:57
+msgid "Popular posts"
+msgstr ""
+
+#: 404.php:96 includes/sliders/breaking-news.php:50
+#: includes/widgets/widget-goodstart-latest-posts.php:154
+#: includes/widgets/widget-goodstart-popular-posts.php:157
+#: includes/widgets/widget-goodstart-reviews.php:199
+#: includes/widgets/widget-goodstart-timeline.php:138
+msgid "No posts where found"
+msgstr ""
+
+#: comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:19 includes/news-single.php:33
+#: includes/home-blocks/latest-news-1.php:107
+#: includes/home-blocks/latest-news-1.php:190
+#: includes/home-blocks/latest-news-5.php:74
+#: includes/home-blocks/latest-news-6.php:70
+#: includes/home-blocks/latest-news-6.php:128
+#: includes/home-blocks/latest-news-7.php:69
+#: includes/home-blocks/latest-news-8.php:68 includes/loop/loop-start.php:60
+#: includes/loop/post.php:132 includes/loop/post.php:176
+#: includes/sliders/carousel.php:83 includes/sliders/grid.php:89
+#: includes/sliders/parallax.php:61 includes/sliders/slider.php:83
+#: includes/widgets/widget-goodstart-latest-posts.php:146
+#: includes/widgets/widget-goodstart-popular-posts.php:149
+#: includes/widgets/widget-goodstart-reviews.php:191
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:19 includes/news-single.php:33
+#: includes/home-blocks/latest-news-1.php:107
+#: includes/home-blocks/latest-news-1.php:190
+#: includes/home-blocks/latest-news-5.php:74
+#: includes/home-blocks/latest-news-6.php:70
+#: includes/home-blocks/latest-news-6.php:128
+#: includes/home-blocks/latest-news-7.php:69
+#: includes/home-blocks/latest-news-8.php:68 includes/loop/loop-start.php:60
+#: includes/loop/post.php:132 includes/loop/post.php:176
+#: includes/sliders/carousel.php:83 includes/sliders/grid.php:89
+#: includes/sliders/parallax.php:61 includes/sliders/slider.php:83
+#: includes/widgets/widget-goodstart-latest-posts.php:146
+#: includes/widgets/widget-goodstart-popular-posts.php:149
+#: includes/widgets/widget-goodstart-reviews.php:191
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:19 includes/news-single.php:33
+#: includes/home-blocks/latest-news-1.php:107
+#: includes/home-blocks/latest-news-1.php:190
+#: includes/home-blocks/latest-news-5.php:74
+#: includes/home-blocks/latest-news-6.php:70
+#: includes/home-blocks/latest-news-6.php:128
+#: includes/home-blocks/latest-news-7.php:69
+#: includes/home-blocks/latest-news-8.php:68 includes/loop/loop-start.php:60
+#: includes/loop/post.php:132 includes/loop/post.php:176
+#: includes/sliders/carousel.php:83 includes/sliders/grid.php:89
+#: includes/sliders/parallax.php:61 includes/sliders/slider.php:83
+#: includes/widgets/widget-goodstart-latest-posts.php:146
+#: includes/widgets/widget-goodstart-popular-posts.php:149
+#: includes/widgets/widget-goodstart-reviews.php:191
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:32
+msgid "No Comments Yet!"
+msgstr ""
+
+#: comments.php:33
+msgid "You can be first to"
+msgstr ""
+
+#: comments.php:33
+msgid "comment this post!"
+msgstr ""
+
+#: comments.php:45
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:48
+#, php-format
+msgid "Only %1$s registered %2$s users can comment."
+msgstr ""
+
+#: comments.php:54
+msgid "Comment"
+msgstr ""
+
+#: comments.php:54
+msgid "Your comment.."
+msgstr ""
+
+#: comments.php:62
+msgid "Post a Comment"
+msgstr ""
+
+#: header.php:36
+#, php-format
+msgid "%s latest posts"
+msgstr ""
+
+#: header.php:37
+#, php-format
+msgid "%s latest comments"
+msgstr ""
+
+#: product-searchform.php:7
+msgid "Search for products"
+msgstr ""
+
+#: searchform.php:6
+msgid "search here"
+msgstr ""
+
+#: template-contact.php:29
+msgid "Contact form"
+msgstr ""
+
+#: template-contact.php:34
+msgid "Great Success:"
+msgstr ""
+
+#: template-contact.php:34
+msgid "Your meesage went through!"
+msgstr ""
+
+#: template-contact.php:45 template-contact.php:46 functions/filters.php:209
+msgid "Nickname"
+msgstr ""
+
+#: template-contact.php:50 template-contact.php:51 functions/filters.php:210
+msgid "E-mail"
+msgstr ""
+
+#: template-contact.php:55 template-contact.php:56 functions/filters.php:211
+msgid "Website"
+msgstr ""
+
+#: template-contact.php:59 template-contact.php:60
+msgid "Your message"
+msgstr ""
+
+#: template-contact.php:64
+msgid "Send Message"
+msgstr ""
+
+#: template-contact.php:69 includes/news-single.php:78
+#: includes/page-woocommerce.php:12
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: template-gallery-1.php:86 includes/gallery-single-style-1.php:137
+msgid "Photo"
+msgstr ""
+
+#: template-gallery-1.php:86 includes/gallery-single-style-1.php:137
+#: includes/shortcodes/gallery-box.php:45
+msgid "Photos"
+msgstr ""
+
+#: template-gallery-1.php:98 includes/gallery-single-style-1.php:149
+msgid "View all photos"
+msgstr ""
+
+#: template-gallery-1.php:112 includes/gallery-single-style-1.php:159
+msgid "No galleries were found"
+msgstr ""
+
+#: functions/ajax.php:508
+msgid "From"
+msgstr ""
+
+#: functions/ajax.php:508
+msgid "Contact Page"
+msgstr ""
+
+#: functions/ajax.php:521
+msgid "Message:"
+msgstr ""
+
+#: functions/ajax.php:523
+msgid "Name:"
+msgstr ""
+
+#: functions/ajax.php:524
+msgid "Url:"
+msgstr ""
+
+#: functions/ajax.php:525
+msgid "E-mail:"
+msgstr ""
+
+#: functions/ajax.php:526
+msgid "IP Address:"
+msgstr ""
+
+#: functions/breadcrumbs.php:5 includes/loop/loop-start.php:111
+msgid "Home"
+msgstr ""
+
+#: functions/breadcrumbs.php:118
+msgid "Page"
+msgstr ""
+
+#: functions/custom-admin-menu.php:126
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:130
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:154
+msgid "Move up"
+msgstr ""
+
+#: functions/custom-admin-menu.php:167
+msgid "Move down"
+msgstr ""
+
+#: functions/custom-admin-menu.php:169 functions/custom-admin-menu.php:171
+msgid "Edit Menu Item"
+msgstr ""
+
+#: functions/custom-admin-menu.php:180
+msgid "URL"
+msgstr ""
+
+#: functions/custom-admin-menu.php:187
+msgid "Navigation Label"
+msgstr ""
+
+#: functions/custom-admin-menu.php:193
+msgid "Title Attribute"
+msgstr ""
+
+#: functions/custom-admin-menu.php:200
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: functions/custom-admin-menu.php:205
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:211
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:217
+msgid "Description"
+msgstr ""
+
+#: functions/custom-admin-menu.php:219
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: functions/custom-admin-menu.php:232
+msgid "Show The Color Line In Main Menu Parent Item (Only Pages/Categories)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:238
+msgid "Main menu type ( only menu parent item )"
+msgstr ""
+
+#: functions/custom-admin-menu.php:240 functions/custom-admin-menu.php:253
+#: functions/drag-drop.php:103 functions/goodstart-menu.php:1037
+#: includes/theme-config.php:587 includes/theme-config.php:819
+msgid "Default"
+msgstr ""
+
+#: functions/custom-admin-menu.php:241
+msgid "Mega Menu With Widgets"
+msgstr ""
+
+#: functions/custom-admin-menu.php:247
+msgid "Sidebar for widget mega menu"
+msgstr ""
+
+#: functions/custom-admin-menu.php:282
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: functions/custom-admin-menu.php:295
+#: functions/tax-meta-class/tax-meta-class.php:583
+#: functions/tax-meta-class/tax-meta-class.php:630
+msgid "Remove"
+msgstr ""
+
+#: functions/custom-admin-menu.php:296
+msgid "Cancel"
+msgstr ""
+
+#: functions/drag-drop.php:13
+msgid "Homepage Blocks:"
+msgstr ""
+
+#: functions/drag-drop.php:17
+msgid "Latest,Popular or Category News"
+msgstr ""
+
+#: functions/drag-drop.php:20
+msgid ""
+"Latest news, category news or popular news post listing, with several layouts"
+msgstr ""
+
+#: functions/drag-drop.php:24 functions/drag-drop.php:100
+msgid "Block Style:"
+msgstr ""
+
+#: functions/drag-drop.php:27
+msgid "With Category Tabs"
+msgstr ""
+
+#: functions/drag-drop.php:28
+msgid "With Category Tabs (only with tiles and date)"
+msgstr ""
+
+#: functions/drag-drop.php:29
+msgid "Post List With Images on Right"
+msgstr ""
+
+#: functions/drag-drop.php:30 includes/widgets/widget-goodstart-timeline.php:6
+#: includes/widgets/widget-goodstart-timeline.php:12
+msgid "Timeline"
+msgstr ""
+
+#: functions/drag-drop.php:31
+msgid "Grid View (2 posts in row)"
+msgstr ""
+
+#: functions/drag-drop.php:32
+msgid "Post List With First Large Image and Other Small"
+msgstr ""
+
+#: functions/drag-drop.php:33
+msgid "Post List With Large Images"
+msgstr ""
+
+#: functions/drag-drop.php:34
+msgid "Post List With Small Images on Left"
+msgstr ""
+
+#: functions/drag-drop.php:38 functions/drag-drop.php:69
+#: functions/drag-drop.php:109 functions/drag-drop.php:138
+#: includes/widgets/widget-ad300x250.php:130
+#: includes/widgets/widget-goodstart-about.php:26
+#: includes/widgets/widget-goodstart-comments.php:22
+#: includes/widgets/widget-goodstart-instagram.php:27
+#: includes/widgets/widget-goodstart-latest-posts.php:26
+#: includes/widgets/widget-goodstart-popular-posts.php:25
+#: includes/widgets/widget-goodstart-reviews.php:28
+#: includes/widgets/widget-goodstart-social.php:23
+#: includes/widgets/widget-goodstart-timeline.php:23
+msgid "Title:"
+msgstr ""
+
+#: functions/drag-drop.php:39 functions/drag-drop.php:70
+#: functions/drag-drop.php:139
+msgid "Count:"
+msgstr ""
+
+#: functions/drag-drop.php:42
+msgid "Block Type:"
+msgstr ""
+
+#: functions/drag-drop.php:45 includes/theme-config.php:1636
+#: includes/widgets/widget-goodstart-latest-posts.php:40
+#: includes/widgets/widget-goodstart-popular-posts.php:39
+#: includes/widgets/widget-goodstart-reviews.php:42
+#: includes/widgets/widget-goodstart-timeline.php:37
+msgid "Latest News"
+msgstr ""
+
+#: functions/drag-drop.php:46
+msgid "Popular News"
+msgstr ""
+
+#: functions/drag-drop.php:54 functions/drag-drop.php:115
+#: functions/drag-drop.php:144
+msgid "Filter by Categories"
+msgstr ""
+
+#: functions/drag-drop.php:57 functions/drag-drop.php:78
+#: functions/drag-drop.php:118 functions/drag-drop.php:147
+msgid ""
+"From which post should start the loop (for example 4 ), for default leave it "
+"empty, or add 0. (Offset):"
+msgstr ""
+
+#: functions/drag-drop.php:64
+msgid "Shop"
+msgstr ""
+
+#: functions/drag-drop.php:67
+msgid "Shop Items"
+msgstr ""
+
+#: functions/drag-drop.php:75
+msgid "Set Category"
+msgstr ""
+
+#: functions/drag-drop.php:81 functions/drag-drop.php:121
+#: functions/drag-drop.php:150
+#: includes/widgets/widget-goodstart-reviews.php:49
+msgid "Type:"
+msgstr ""
+
+#: functions/drag-drop.php:84
+msgid "Latest"
+msgstr ""
+
+#: functions/drag-drop.php:85
+msgid "Featured"
+msgstr ""
+
+#: functions/drag-drop.php:93
+msgid "Videos"
+msgstr ""
+
+#: functions/drag-drop.php:96
+msgid "Latest/Top Videos."
+msgstr ""
+
+#: functions/drag-drop.php:104
+msgid "Video List (light)"
+msgstr ""
+
+#: functions/drag-drop.php:105
+msgid "Video List (dark)"
+msgstr ""
+
+#: functions/drag-drop.php:124
+msgid "Latest Videos"
+msgstr ""
+
+#: functions/drag-drop.php:125
+msgid "Top Videos"
+msgstr ""
+
+#: functions/drag-drop.php:132 includes/widgets/widget-goodstart-reviews.php:6
+#: includes/widgets/widget-goodstart-reviews.php:12
+msgid "Reviews"
+msgstr ""
+
+#: functions/drag-drop.php:135
+msgid "Latest/Top reviews."
+msgstr ""
+
+#: functions/drag-drop.php:153
+#: includes/widgets/widget-goodstart-reviews.php:51
+msgid "Latest Reviews"
+msgstr ""
+
+#: functions/drag-drop.php:154
+#: includes/widgets/widget-goodstart-reviews.php:52
+msgid "Top Reviews"
+msgstr ""
+
+#: functions/drag-drop.php:162
+msgid "Text Block"
+msgstr ""
+
+#: functions/drag-drop.php:165
+msgid "Custom Text Block/Shortcodes Block"
+msgstr ""
+
+#: functions/drag-drop.php:167 includes/admin/general.php:825
+#: includes/widgets/widget-goodstart-about.php:31
+#: includes/widgets/widget-goodstart-social.php:27
+msgid "Text:"
+msgstr ""
+
+#: functions/drag-drop.php:171
+msgid "HTML Code"
+msgstr ""
+
+#: functions/drag-drop.php:174
+msgid "Custom HTML/Shortcodes Block"
+msgstr ""
+
+#: functions/drag-drop.php:176 functions/drag-drop.php:185
+msgid "Code/Text:"
+msgstr ""
+
+#: functions/drag-drop.php:180
+msgid "Banner Block"
+msgstr ""
+
+#: functions/drag-drop.php:183
+msgid "Supports HTML,CSS, Javascript and Shortcodes."
+msgstr ""
+
+#: functions/filters.php:71
+msgid "More"
+msgstr ""
+
+#: functions/filters.php:191
+msgid "Twitter Account Url"
+msgstr ""
+
+#: functions/filters.php:192
+msgid "Facebook Account Url"
+msgstr ""
+
+#: functions/filters.php:193
+msgid "Google+ Account Url"
+msgstr ""
+
+#: functions/filters.php:194
+msgid "Youtube Account Url"
+msgstr ""
+
+#: functions/filters.php:195
+msgid "Dribbble Account Url"
+msgstr ""
+
+#: functions/filters.php:224
+msgid "Your data will be safe!"
+msgstr ""
+
+#: functions/filters.php:225
+msgid ""
+"Your e-mail address will not be published. Also other data will not be "
+"shared with third person. Required fields marked as "
+msgstr ""
+
+#: functions/goodstart-menu.php:13
+msgid "Settings"
+msgstr ""
+
+#: functions/goodstart-menu.php:26 includes/admin/general.php:18
+msgid "General"
+msgstr ""
+
+#: functions/goodstart-menu.php:34
+msgid "Post/Page Settings"
+msgstr ""
+
+#: functions/goodstart-menu.php:42 functions/goodstart-menu.php:1035
+#: includes/theme-config.php:585 includes/theme-config.php:817
+#: includes/admin/sidebar.php:18
+msgid "Sidebar"
+msgstr ""
+
+#: functions/goodstart-menu.php:67
+msgid "Show Image In Single Post / News Page"
+msgstr ""
+
+#: functions/goodstart-menu.php:75 functions/goodstart-menu.php:166
+#: functions/goodstart-menu.php:197 functions/goodstart-menu.php:223
+#: functions/goodstart-menu.php:249 functions/goodstart-menu.php:277
+#: functions/goodstart-menu.php:304 functions/goodstart-menu.php:331
+#: functions/goodstart-menu.php:358 functions/goodstart-menu.php:384
+#: functions/goodstart-menu.php:410 functions/goodstart-menu.php:436
+#: functions/goodstart-menu.php:641 functions/goodstart-menu.php:862
+#: functions/goodstart-menu.php:874 includes/theme-config.php:2259
+#: includes/admin/general.php:403 includes/admin/general.php:448
+#: includes/admin/general.php:470 includes/admin/general.php:493
+#: includes/admin/general.php:515 includes/admin/general.php:539
+#: includes/admin/general.php:561 includes/admin/general.php:585
+#: includes/admin/general.php:608 includes/admin/general.php:631
+#: includes/admin/general.php:654 includes/admin/general.php:681
+#: includes/admin/general.php:705
+msgid "Show:"
+msgstr ""
+
+#: functions/goodstart-menu.php:76 functions/goodstart-menu.php:167
+#: functions/goodstart-menu.php:198 functions/goodstart-menu.php:224
+#: functions/goodstart-menu.php:250 functions/goodstart-menu.php:278
+#: functions/goodstart-menu.php:305 functions/goodstart-menu.php:332
+#: functions/goodstart-menu.php:359 functions/goodstart-menu.php:385
+#: functions/goodstart-menu.php:411 functions/goodstart-menu.php:437
+#: functions/goodstart-menu.php:642 includes/theme-config.php:2260
+#: includes/admin/general.php:404 includes/admin/general.php:449
+#: includes/admin/general.php:471 includes/admin/general.php:494
+#: includes/admin/general.php:516 includes/admin/general.php:540
+#: includes/admin/general.php:562 includes/admin/general.php:586
+#: includes/admin/general.php:609 includes/admin/general.php:632
+#: includes/admin/general.php:655 includes/admin/general.php:682
+#: includes/admin/general.php:706
+msgid "Hide:"
+msgstr ""
+
+#: functions/goodstart-menu.php:98 includes/admin/general.php:418
+msgid "Post/Page Image PopUp View"
+msgstr ""
+
+#: functions/goodstart-menu.php:106 includes/admin/general.php:425
+msgid "Yes:"
+msgstr ""
+
+#: functions/goodstart-menu.php:107 includes/admin/general.php:426
+msgid "No:"
+msgstr ""
+
+#: functions/goodstart-menu.php:158
+msgid "Show Title In Single Post/Page"
+msgstr ""
+
+#: functions/goodstart-menu.php:190 includes/admin/general.php:486
+msgid "Show Post Controls"
+msgstr ""
+
+#: functions/goodstart-menu.php:216
+msgid "Post Views"
+msgstr ""
+
+#: functions/goodstart-menu.php:242
+msgid "Post Author"
+msgstr ""
+
+#: functions/goodstart-menu.php:270
+msgid "Post Date"
+msgstr ""
+
+#: functions/goodstart-menu.php:297 includes/admin/general.php:674
+msgid "Show Share Buttons"
+msgstr ""
+
+#: functions/goodstart-menu.php:324
+msgid "Show Post Comments Count"
+msgstr ""
+
+#: functions/goodstart-menu.php:351
+msgid "Post Categories"
+msgstr ""
+
+#: functions/goodstart-menu.php:377
+msgid "Post Tags"
+msgstr ""
+
+#: functions/goodstart-menu.php:403
+msgid "\"Similar News\" Block In Post"
+msgstr ""
+
+#: functions/goodstart-menu.php:429
+msgid "\"About Author\" Block In Post"
+msgstr ""
+
+#: functions/goodstart-menu.php:456
+msgid "Header type"
+msgstr ""
+
+#: functions/goodstart-menu.php:463 includes/admin/style.php:326
+msgid "Off:"
+msgstr ""
+
+#: functions/goodstart-menu.php:464
+msgid "Slider:"
+msgstr ""
+
+#: functions/goodstart-menu.php:465
+msgid "Grid news:"
+msgstr ""
+
+#: functions/goodstart-menu.php:466
+msgid "News Carousel:"
+msgstr ""
+
+#: functions/goodstart-menu.php:467
+msgid "Parallax Image:"
+msgstr ""
+
+#: functions/goodstart-menu.php:474
+msgid "Set Main News Slider Categories"
+msgstr ""
+
+#: functions/goodstart-menu.php:481 functions/goodstart-menu.php:491
+msgid "Main slider post count"
+msgstr ""
+
+#: functions/goodstart-menu.php:501 functions/goodstart-menu.php:541
+#: functions/goodstart-menu.php:581
+msgid "Background"
+msgstr ""
+
+#: functions/goodstart-menu.php:511 functions/goodstart-menu.php:521
+#: functions/goodstart-menu.php:551 functions/goodstart-menu.php:561
+#: functions/goodstart-menu.php:592 functions/goodstart-menu.php:602
+#: includes/admin/style.php:260
+msgid "Color:"
+msgstr ""
+
+#: functions/goodstart-menu.php:512 functions/goodstart-menu.php:531
+#: functions/goodstart-menu.php:552 functions/goodstart-menu.php:571
+#: functions/goodstart-menu.php:593 functions/goodstart-menu.php:612
+#: functions/goodstart-menu.php:1258
+#: includes/widgets/widget-goodstart-about.php:28
+msgid "Image:"
+msgstr ""
+
+#: functions/goodstart-menu.php:633
+msgid "\"Similar News\" Block In Gallery"
+msgstr ""
+
+#: functions/goodstart-menu.php:699
+msgid "Blog Style"
+msgstr ""
+
+#: functions/goodstart-menu.php:707
+msgid "Grid View:"
+msgstr ""
+
+#: functions/goodstart-menu.php:708
+msgid "List With Small Images:"
+msgstr ""
+
+#: functions/goodstart-menu.php:709
+msgid "List With Large Images:"
+msgstr ""
+
+#: functions/goodstart-menu.php:710
+msgid "Timeline:"
+msgstr ""
+
+#: functions/goodstart-menu.php:728
+msgid "Single Image Type"
+msgstr ""
+
+#: functions/goodstart-menu.php:737 includes/admin/style.php:389
+msgid "Default:"
+msgstr ""
+
+#: functions/goodstart-menu.php:738
+msgid "Parallax:"
+msgstr ""
+
+#: functions/goodstart-menu.php:857
+msgid "Show This Post In Breaking News Slider?"
+msgstr ""
+
+#: functions/goodstart-menu.php:869
+msgid "Show This Post In Main Slider/Grid?"
+msgstr ""
+
+#: functions/goodstart-menu.php:891
+msgid "Video Embed Code"
+msgstr ""
+
+#: functions/goodstart-menu.php:896
+msgid "Vimeo, Youtube Embed Code:"
+msgstr ""
+
+#: functions/goodstart-menu.php:910
+msgid "SoundCloud Embed Code"
+msgstr ""
+
+#: functions/goodstart-menu.php:915
+msgid "SoundCloud Embed Code:"
+msgstr ""
+
+#: functions/goodstart-menu.php:930
+msgid "Review Settings"
+msgstr ""
+
+#: functions/goodstart-menu.php:937
+msgid "Ratings"
+msgstr ""
+
+#: functions/goodstart-menu.php:939
+msgid ""
+"Enter the ratings like this - Graphics:5; Gameplay:4,5; Sound:3; Storyline:4"
+msgstr ""
+
+#: functions/goodstart-menu.php:944 includes/single/post-ratings.php:87
+msgid "Summary"
+msgstr ""
+
+#: functions/goodstart-menu.php:959
+msgid "Contact Page Email"
+msgstr ""
+
+#: functions/goodstart-menu.php:964
+msgid "Email:"
+msgstr ""
+
+#: functions/goodstart-menu.php:979
+msgid "Contact Page Google Map"
+msgstr ""
+
+#: functions/goodstart-menu.php:984
+msgid "Embed Code:"
+msgstr ""
+
+#: functions/goodstart-menu.php:1014
+msgid "Main Sidebar Side"
+msgstr ""
+
+#: functions/goodstart-menu.php:1021 includes/admin/sidebar.php:44
+msgid "Right:"
+msgstr ""
+
+#: functions/goodstart-menu.php:1022 includes/admin/sidebar.php:43
+msgid "Left:"
+msgstr ""
+
+#: functions/goodstart-menu.php:1030
+msgid "Main Sidebar Name"
+msgstr ""
+
+#: functions/goodstart-menu.php:1038 includes/theme-config.php:588
+#: includes/theme-config.php:820
+msgid "Off"
+msgstr ""
+
+#: functions/goodstart-menu.php:1110
+msgid "Post Custom Settings"
+msgstr ""
+
+#: functions/goodstart-menu.php:1202
+msgid "Security check"
+msgstr ""
+
+#: functions/goodstart-menu.php:1258
+msgid "Main Slider Image"
+msgstr ""
+
+#: functions/goodstart-menu.php:1262 functions/goodstart-menu.php:1263
+msgid "Gallery Images"
+msgstr ""
+
+#: functions/goodstart-menu.php:1267
+msgid "Portfolio Images"
+msgstr ""
+
+#: functions/goodstart-menu.php:1275
+msgid "Homepage Builder"
+msgstr ""
+
+#: functions/nav.php:95
+msgid "Previous"
+msgstr ""
+
+#: functions/other.php:65
+msgid "Category Style "
+msgstr ""
+
+#: functions/other.php:68
+msgid "Right"
+msgstr ""
+
+#: functions/other.php:68
+msgid "Left"
+msgstr ""
+
+#: functions/other.php:68
+msgid "Main Sidebar Position "
+msgstr ""
+
+#: functions/other.php:70
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions/other.php:78
+#: includes/widgets/widget-goodstart-latest-posts.php:49
+#: includes/widgets/widget-goodstart-popular-posts.php:48
+msgid "Show"
+msgstr ""
+
+#: functions/other.php:78
+#: includes/widgets/widget-goodstart-latest-posts.php:50
+#: includes/widgets/widget-goodstart-popular-posts.php:49
+msgid "Hide"
+msgstr ""
+
+#: functions/other.php:78 includes/admin/slider.php:18
+msgid "Breaking News Slider"
+msgstr ""
+
+#: functions/other.php:140
+msgid "Last Update: "
+msgstr ""
+
+#: functions/other.php:140
+msgid "Updated"
+msgstr ""
+
+#: functions/other.php:698 functions/other.php:758
+msgid "Delete image"
+msgstr ""
+
+#: functions/other.php:698 functions/other.php:758
+#: functions/tax-meta-class/tax-meta-class.php:250
+#: functions/tax-meta-class/tax-meta-class.php:883
+#: includes/theme-config.php:1888
+msgid "Delete"
+msgstr ""
+
+#: functions/other.php:709
+msgid "Add images"
+msgstr ""
+
+#: functions/other.php:735
+msgid "Add Images to Product Gallery"
+msgstr ""
+
+#: functions/other.php:737
+msgid "Add to gallery"
+msgstr ""
+
+#: functions/other.php:1196
+msgid "Moderate or heavy snow in area with thunder"
+msgstr ""
+
+#: functions/other.php:1200
+msgid "Patchy light snow in area with thunder"
+msgstr ""
+
+#: functions/other.php:1204
+msgid "Moderate or heavy snow showers"
+msgstr ""
+
+#: functions/other.php:1208
+msgid "Light snow showers"
+msgstr ""
+
+#: functions/other.php:1212
+msgid "Ice pellets"
+msgstr ""
+
+#: functions/other.php:1216
+msgid "Heavy snow"
+msgstr ""
+
+#: functions/other.php:1220
+msgid "Patchy heavy snow"
+msgstr ""
+
+#: functions/other.php:1224
+msgid "Moderate snow"
+msgstr ""
+
+#: functions/other.php:1228
+msgid "Patchy moderate snow"
+msgstr ""
+
+#: functions/other.php:1232
+msgid "Light snow"
+msgstr ""
+
+#: functions/other.php:1236
+msgid "Patchy light snow"
+msgstr ""
+
+#: functions/other.php:1240
+msgid "Moderate or heavy sleet"
+msgstr ""
+
+#: functions/other.php:1244
+msgid "Light sleet"
+msgstr ""
+
+#: functions/other.php:1248
+msgid "Heavy freezing drizzle"
+msgstr ""
+
+#: functions/other.php:1252
+msgid "Freezing drizzle"
+msgstr ""
+
+#: functions/other.php:1256
+msgid "Light drizzle"
+msgstr ""
+
+#: functions/other.php:1260
+msgid "Patchy light drizzle"
+msgstr ""
+
+#: functions/other.php:1264
+msgid "Blizzard"
+msgstr ""
+
+#: functions/other.php:1268
+msgid "Blowing snow"
+msgstr ""
+
+#: functions/other.php:1272
+msgid "Moderate or heavy rain in area with thunder"
+msgstr ""
+
+#: functions/other.php:1276
+msgid "Patchy light rain in area with thunder"
+msgstr ""
+
+#: functions/other.php:1280
+msgid "Thundery outbreaks in nearby"
+msgstr ""
+
+#: functions/other.php:1284
+msgid "Moderate or heavy showers of ice pellets"
+msgstr ""
+
+#: functions/other.php:1288
+msgid "Light showers of ice pellets"
+msgstr ""
+
+#: functions/other.php:1292
+msgid "Moderate or heavy sleet showers"
+msgstr ""
+
+#: functions/other.php:1296
+msgid "Light sleet showers"
+msgstr ""
+
+#: functions/other.php:1300
+msgid "Torrential rain shower"
+msgstr ""
+
+#: functions/other.php:1304
+msgid "Moderate or heavy rain shower"
+msgstr ""
+
+#: functions/other.php:1308
+msgid "Light rain shower"
+msgstr ""
+
+#: functions/other.php:1312
+msgid "Moderate or Heavy freezing rain"
+msgstr ""
+
+#: functions/other.php:1316
+msgid "Light freezing rain"
+msgstr ""
+
+#: functions/other.php:1320
+msgid "Heavy rain"
+msgstr ""
+
+#: functions/other.php:1324
+msgid "Heavy rain at times"
+msgstr ""
+
+#: functions/other.php:1328
+msgid "Moderate rain"
+msgstr ""
+
+#: functions/other.php:1332
+msgid "Moderate rain at times"
+msgstr ""
+
+#: functions/other.php:1336
+msgid "Light rain"
+msgstr ""
+
+#: functions/other.php:1340
+msgid "Patchy light rain"
+msgstr ""
+
+#: functions/other.php:1344
+msgid "Patchy freezing drizzle nearby"
+msgstr ""
+
+#: functions/other.php:1348
+msgid "Patchy snow nearby"
+msgstr ""
+
+#: functions/other.php:1352
+msgid "Patchy rain nearby"
+msgstr ""
+
+#: functions/other.php:1356
+msgid "Freezing fog"
+msgstr ""
+
+#: functions/other.php:1360
+msgid "Fog"
+msgstr ""
+
+#: functions/other.php:1364
+msgid "Mist"
+msgstr ""
+
+#: functions/other.php:1368
+msgid "Overcast"
+msgstr ""
+
+#: functions/other.php:1372
+msgid "Cloudy"
+msgstr ""
+
+#: functions/other.php:1376
+msgid "Partly Cloudy"
+msgstr ""
+
+#: functions/other.php:1380
+msgid "Sunny"
+msgstr ""
+
+#: functions/other.php:1384
+msgid "Patchy sleet nearby"
+msgstr ""
+
+#: functions/other.php:1388
+msgid "Can't get any data."
+msgstr ""
+
+#: functions/other.php:1400 functions/other.php:1412
+msgid "Something went wrong with the connection!"
+msgstr ""
+
+#: functions/other.php:1415
+msgid "This option doesn't work on localhost!"
+msgstr ""
+
+#: functions/other.php:1419
+msgid "Please set up your API key!"
+msgstr ""
+
+#: functions/other.php:1467
+msgid "Search Results for"
+msgstr ""
+
+#: functions/other.php:1475
+msgid "Posts From"
+msgstr ""
+
+#: functions/other.php:1478
+msgid "Tag"
+msgstr ""
+
+#: functions/other.php:1488
+msgid "Archive"
+msgstr ""
+
+#: functions/other.php:1663
+msgid "<strong>0</strong> comments"
+msgstr ""
+
+#: functions/other.php:1665
+msgid " comments"
+msgstr ""
+
+#: functions/other.php:1667
+msgid "<strong>1</strong> comment"
+msgstr ""
+
+#: functions/other.php:1976
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: functions/other.php:1977
+msgid "Password:"
+msgstr ""
+
+#: functions/other.php:1979
+msgid "Submit"
+msgstr ""
+
+#: functions/other.php:2127 functions/other.php:2133
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: functions/other.php:2134
+#, php-format
+msgid " %1$s, at %2$s"
+msgstr ""
+
+#: functions/other.php:2137
+msgid "Reply"
+msgstr ""
+
+#: functions/register.php:14 includes/top.php:60
+msgid "Top Menu"
+msgstr ""
+
+#: functions/register.php:15 includes/top.php:130
+msgid "Main Menu"
+msgstr ""
+
+#: functions/register.php:40
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions/register.php:40
+msgid "The default page sidebar."
+msgstr ""
+
+#: functions/register.php:41
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions/register.php:41
+msgid "Supports up to 3 widgets"
+msgstr ""
+
+#: functions/register.php:44
+msgid "Woocommerce Page Sidebar"
+msgstr ""
+
+#: functions/register.php:47
+msgid "bbPress Page Sidebar"
+msgstr ""
+
+#: functions/register.php:50
+msgid "BuddyPress Page Sidebar"
+msgstr ""
+
+#: functions/tax-meta-class/tax-meta-class.php:250
+msgid "Delete this image"
+msgstr ""
+
+#: functions/tax-meta-class/tax-meta-class.php:357
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: functions/tax-meta-class/tax-meta-class.php:596
+msgid "Add"
+msgstr ""
+
+#: functions/tax-meta-class/tax-meta-class.php:879
+msgid "Uploaded files"
+msgstr ""
+
+#: functions/tax-meta-class/tax-meta-class.php:890
+msgid "Upload new files"
+msgstr ""
+
+#: functions/tax-meta-class/tax-meta-class.php:896
+msgid "Add more files"
+msgstr ""
+
+#: functions/tax-meta-class/tax-meta-class.php:948
+msgid "Select a color"
+msgstr ""
+
+#: includes/banners.php:20 includes/banners.php:29 includes/banners.php:40
+#: includes/theme-config.php:693 includes/theme-config.php:769
+#: includes/theme-config.php:882
+msgid "Close"
+msgstr ""
+
+#: includes/gallery-single-style-1.php:74
+msgid "Similar photo gallery"
+msgstr ""
+
+#: includes/news-single.php:52 includes/page-single.php:18
+msgid "Pages:"
+msgstr ""
+
+#: includes/news-single.php:57 includes/page-single.php:23
+msgid "Next page"
+msgstr ""
+
+#: includes/news-single.php:58 includes/page-single.php:24
+msgid "Previous page"
+msgstr ""
+
+#: includes/page-single.php:34
+msgid "Sorry, no page matched your criteria."
+msgstr ""
+
+#: includes/theme-config.php:389
+msgid "You didn't create a slider yet."
+msgstr ""
+
+#: includes/theme-config.php:602
+msgid "Columns & Layouts"
+msgstr ""
+
+#: includes/theme-config.php:603
+msgid "Block Added.."
+msgstr ""
+
+#: includes/theme-config.php:605
+msgid "Layouts"
+msgstr ""
+
+#: includes/theme-config.php:610 includes/theme-config.php:615
+#: includes/theme-config.php:623 includes/theme-config.php:629
+#: includes/theme-config.php:638 includes/theme-config.php:944
+#: includes/theme-config.php:964
+msgid "Click to add block layout"
+msgstr ""
+
+#: includes/theme-config.php:644
+msgid "Columns"
+msgstr ""
+
+#: includes/theme-config.php:678 includes/theme-config.php:679
+#: includes/theme-config.php:757 includes/theme-config.php:870
+#: includes/theme-config.php:1888
+msgid "Edit"
+msgstr ""
+
+#: includes/theme-config.php:699 includes/theme-config.php:798
+#: includes/theme-config.php:918 includes/theme-config.php:988
+msgid "Save"
+msgstr ""
+
+#: includes/theme-config.php:699 includes/theme-config.php:798
+#: includes/theme-config.php:918 includes/theme-config.php:988
+msgid "Saving.."
+msgstr ""
+
+#: includes/theme-config.php:711
+msgid ""
+"To add content to your Hompage, drag &amp; drop blocks from Available to "
+"Active area "
+msgstr ""
+
+#: includes/theme-config.php:714
+msgid "Active homepage blocks"
+msgstr ""
+
+#: includes/theme-config.php:963
+msgid "Drag block here to delete it"
+msgstr ""
+
+#: includes/theme-config.php:968
+msgid "Pagebuilder Import/Export"
+msgstr ""
+
+#: includes/theme-config.php:974 includes/admin/general.php:138
+msgid "Export Settings"
+msgstr ""
+
+#: includes/theme-config.php:980 includes/admin/general.php:145
+msgid "Import Settings"
+msgstr ""
+
+#: includes/theme-config.php:1065
+msgid "Export"
+msgstr ""
+
+#: includes/theme-config.php:1110
+msgid "Import"
+msgstr ""
+
+#: includes/theme-config.php:1170
+#: includes/widgets/widget-goodstart-about.php:29
+msgid "Choose File"
+msgstr ""
+
+#: includes/theme-config.php:1549
+msgid "Add Media"
+msgstr ""
+
+#: includes/theme-config.php:1555
+msgid "Sample:"
+msgstr ""
+
+#: includes/theme-config.php:1835
+msgid ""
+"This options is disabled, to enable it you must set this option in "
+"<strong>theme management panel</strong> to custom."
+msgstr ""
+
+#: includes/theme-config.php:1888
+msgid "Sidebar name:"
+msgstr ""
+
+#: includes/theme-config.php:1946
+msgid "Add/Save"
+msgstr ""
+
+#: includes/theme-config.php:1946
+msgid "Adding..."
+msgstr ""
+
+#: includes/theme-config.php:2001
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/theme-config.php:2004
+msgid "bbPRess"
+msgstr ""
+
+#: includes/theme-config.php:2007
+msgid "BudyPress"
+msgstr ""
+
+#: includes/theme-config.php:2226
+msgid "Gallery Settings"
+msgstr ""
+
+#: includes/theme-config.php:2232
+msgid "Items per gallery page:"
+msgstr ""
+
+#: includes/theme-config.php:2251
+msgid "Show \"Similar Posts\" In Single Galley"
+msgstr ""
+
+#: includes/theme-config.php:2261
+msgid "Custom For Each Gallery Page:"
+msgstr ""
+
+#: includes/theme-config.php:2274 includes/admin/general.php:352
+#: includes/admin/general.php:717 includes/admin/general.php:836
+#: includes/admin/slider.php:79 includes/admin/style.php:104
+#: includes/admin/style.php:340 includes/admin/style.php:442
+msgid "Save Changes"
+msgstr ""
+
+#: includes/theme-config.php:2342
+msgid "Saving..."
+msgstr ""
+
+#: includes/admin/documentation.php:38
+msgid "http://"
+msgstr ""
+
+#: includes/admin/general.php:19
+msgid "Blog"
+msgstr ""
+
+#: includes/admin/general.php:20
+msgid "Contact/Footer"
+msgstr ""
+
+#: includes/admin/general.php:21
+msgid "Banners"
+msgstr ""
+
+#: includes/admin/general.php:61
+msgid "Load dynamic js/css files directly in header"
+msgstr ""
+
+#: includes/admin/general.php:66
+msgid ""
+"Load in Header (this improves your page speed on some servers, but it "
+"depends on server configuration):"
+msgstr ""
+
+#: includes/admin/general.php:72
+msgid "Allow to Output JavaScript and All HTML tags in Dynamic Data in Theme:"
+msgstr ""
+
+#: includes/admin/general.php:86
+msgid "Add logo image"
+msgstr ""
+
+#: includes/admin/general.php:91
+msgid "Add Header Logo Image"
+msgstr ""
+
+#: includes/admin/general.php:92
+msgid "Suggested image size is 467x60px"
+msgstr ""
+
+#: includes/admin/general.php:133
+msgid "Export/Import Theme Settings"
+msgstr ""
+
+#: includes/admin/general.php:178 includes/admin/general.php:374
+msgid "Unit Settings"
+msgstr ""
+
+#: includes/admin/general.php:183
+msgid "Show Search In Top Menu:"
+msgstr ""
+
+#: includes/admin/general.php:188
+msgid "Hide Duplicate Posts On Homepage:"
+msgstr ""
+
+#: includes/admin/general.php:338
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: includes/admin/general.php:343
+msgid "Show Breadcrumb:"
+msgstr ""
+
+#: includes/admin/general.php:379
+msgid "Show thumbnails in blog post list:"
+msgstr ""
+
+#: includes/admin/general.php:385
+msgid "Show placeholder thumbnail, when no thumbnail is available:"
+msgstr ""
+
+#: includes/admin/general.php:396
+msgid "Show thumbnail in open post/page"
+msgstr ""
+
+#: includes/admin/general.php:405 includes/admin/general.php:427
+#: includes/admin/general.php:450 includes/admin/general.php:472
+#: includes/admin/general.php:495 includes/admin/general.php:517
+#: includes/admin/general.php:541 includes/admin/general.php:563
+#: includes/admin/general.php:587 includes/admin/general.php:610
+#: includes/admin/general.php:633 includes/admin/general.php:656
+#: includes/admin/general.php:707
+msgid "Custom For Each Post:"
+msgstr ""
+
+#: includes/admin/general.php:441
+msgid "Show Post Title In Single Post/Page"
+msgstr ""
+
+#: includes/admin/general.php:463
+msgid "Show Post Views"
+msgstr ""
+
+#: includes/admin/general.php:508
+msgid "Show Post Author"
+msgstr ""
+
+#: includes/admin/general.php:532
+msgid "Show Post Date"
+msgstr ""
+
+#: includes/admin/general.php:554
+msgid "Show Like Count"
+msgstr ""
+
+#: includes/admin/general.php:578
+msgid "Show Categories"
+msgstr ""
+
+#: includes/admin/general.php:601
+msgid "Show Tags In Single Post"
+msgstr ""
+
+#: includes/admin/general.php:624
+msgid "Show \"About Author\" In Single Post"
+msgstr ""
+
+#: includes/admin/general.php:647
+msgid "Show \"Similar News\" In Single Post"
+msgstr ""
+
+#: includes/admin/general.php:683
+msgid "Custom For Each Post/Page:"
+msgstr ""
+
+#: includes/admin/general.php:698
+msgid "Show Post Comment Count"
+msgstr ""
+
+#: includes/admin/general.php:801
+msgid "Twitter Account"
+msgstr ""
+
+#: includes/admin/general.php:806
+msgid "Twitter Account Name:"
+msgstr ""
+
+#: includes/admin/general.php:820
+msgid "Footer CopyRight"
+msgstr ""
+
+#: includes/admin/general.php:878
+msgid "Header Banner"
+msgstr ""
+
+#: includes/admin/general.php:883
+msgid "Enable Banner"
+msgstr ""
+
+#: includes/admin/general.php:890
+msgid "Banner HTML Code"
+msgstr ""
+
+#: includes/admin/general.php:928
+msgid "Select Pop Up Banner Type"
+msgstr ""
+
+#: includes/admin/general.php:1126
+msgid "Gallery"
+msgstr ""
+
+#: includes/admin/sidebar.php:36
+msgid "Default Main Sidebar Position"
+msgstr ""
+
+#: includes/admin/sidebar.php:45
+msgid "Custom For Each Page:"
+msgstr ""
+
+#: includes/admin/sidebar.php:83
+msgid "Add Sidebar"
+msgstr ""
+
+#: includes/admin/sidebar.php:88
+msgid "Add New Sidebar:"
+msgstr ""
+
+#: includes/admin/sidebar.php:102
+msgid "Sidebar Sequence"
+msgstr ""
+
+#: includes/admin/sidebar.php:103
+msgid "To sort the slides just drag and drop them!"
+msgstr ""
+
+#: includes/admin/sidebar.php:108
+msgid "Order Sidebars"
+msgstr ""
+
+#: includes/admin/slider.php:6
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/admin/slider.php:39
+msgid "Show Breaking News Slider"
+msgstr ""
+
+#: includes/admin/slider.php:44
+msgid "Show In Posts:"
+msgstr ""
+
+#: includes/admin/slider.php:49
+msgid "Show In Pages:"
+msgstr ""
+
+#: includes/admin/slider.php:54
+msgid "Show In Blog:"
+msgstr ""
+
+#: includes/admin/slider.php:59
+msgid "Show In Homepage:"
+msgstr ""
+
+#: includes/admin/slider.php:64
+msgid "Breaking News Slider Categories"
+msgstr ""
+
+#: includes/admin/slider.php:68
+msgid "Set Categories"
+msgstr ""
+
+#: includes/admin/style.php:6
+msgid "Style Settings"
+msgstr ""
+
+#: includes/admin/style.php:18
+msgid "Font Style"
+msgstr ""
+
+#: includes/admin/style.php:19
+msgid "Page Colors/Style"
+msgstr ""
+
+#: includes/admin/style.php:20
+msgid "Layout"
+msgstr ""
+
+#: includes/admin/style.php:38
+msgid "Fonts"
+msgstr ""
+
+#: includes/admin/style.php:43
+msgid "Body Font:"
+msgstr ""
+
+#: includes/admin/style.php:46
+msgid ""
+"Font previews You Can find here: <a href='http://www.google.com/webfonts' "
+"target='_blank'>Google Fonts</a>"
+msgstr ""
+
+#: includes/admin/style.php:64
+msgid "Font Character Sets"
+msgstr ""
+
+#: includes/admin/style.php:69
+msgid "Cyrillic Extended (cyrillic-ext):"
+msgstr ""
+
+#: includes/admin/style.php:74
+msgid "Cyrillic (cyrillic):"
+msgstr ""
+
+#: includes/admin/style.php:79
+msgid "Greek Extended (greek-ext):"
+msgstr ""
+
+#: includes/admin/style.php:84
+msgid "Greek (greek):"
+msgstr ""
+
+#: includes/admin/style.php:89
+msgid "Vietnamese (vietnamese):"
+msgstr ""
+
+#: includes/admin/style.php:94
+msgid "Latin Extended (latin-ext):"
+msgstr ""
+
+#: includes/admin/style.php:143
+msgid "Colors"
+msgstr ""
+
+#: includes/admin/style.php:149
+msgid ""
+"Colors\n"
+"    (links, logo first letter, post meta icon, video list title, title\n"
+"    icon, block tabs active, blockquotes, service box first letter,\n"
+"    controls single post):"
+msgstr ""
+
+#: includes/admin/style.php:158
+msgid ""
+"Background colors\n"
+"    (button, inputs[buttons],site navigation current, sub menu,\n"
+"    calendar box, background color, video item label, review label\n"
+"    mobile menu toggle, tags, calendar links, review posts widget,\n"
+"    breaking news title, pricing box header, accordion background,\n"
+"    review lines, shop product label onsale):"
+msgstr ""
+
+#: includes/admin/style.php:169
+msgid ""
+"Border\n"
+"    (header, block title, widget title, blockquotes):"
+msgstr ""
+
+#: includes/admin/style.php:183
+msgid "Top Menu Background"
+msgstr ""
+
+#: includes/admin/style.php:190 includes/admin/style.php:205
+#: includes/admin/style.php:219 includes/admin/style.php:234
+msgid "Light:"
+msgstr ""
+
+#: includes/admin/style.php:191 includes/admin/style.php:206
+#: includes/admin/style.php:220 includes/admin/style.php:235
+msgid "Dark:"
+msgstr ""
+
+#: includes/admin/style.php:198
+msgid "Main Header Background"
+msgstr ""
+
+#: includes/admin/style.php:212
+msgid "Main Menu Background"
+msgstr ""
+
+#: includes/admin/style.php:227
+msgid "Breaking nNews Slider Background"
+msgstr ""
+
+#: includes/admin/style.php:251
+msgid "Body Backgrounds (only boxed view)"
+msgstr ""
+
+#: includes/admin/style.php:258
+msgid "Pattern:"
+msgstr ""
+
+#: includes/admin/style.php:259
+msgid "Custom Image:"
+msgstr ""
+
+#: includes/admin/style.php:267
+msgid "Patterns "
+msgstr ""
+
+#: includes/admin/style.php:270
+msgid "Texture 1"
+msgstr ""
+
+#: includes/admin/style.php:271
+msgid "Texture 2"
+msgstr ""
+
+#: includes/admin/style.php:272
+msgid "Texture 3"
+msgstr ""
+
+#: includes/admin/style.php:273
+msgid "Texture 4"
+msgstr ""
+
+#: includes/admin/style.php:274
+msgid "Texture 5"
+msgstr ""
+
+#: includes/admin/style.php:275
+msgid "Texture 6"
+msgstr ""
+
+#: includes/admin/style.php:276
+msgid "Texture 7"
+msgstr ""
+
+#: includes/admin/style.php:277
+msgid "Texture 8"
+msgstr ""
+
+#: includes/admin/style.php:278
+msgid "Texture 9"
+msgstr ""
+
+#: includes/admin/style.php:287
+msgid "Body Background Color:"
+msgstr ""
+
+#: includes/admin/style.php:297
+msgid "Body Background Image:"
+msgstr ""
+
+#: includes/admin/style.php:306
+msgid "Background Image Url:"
+msgstr ""
+
+#: includes/admin/style.php:314
+msgid "Image Repeat"
+msgstr ""
+
+#: includes/admin/style.php:323
+msgid "Repeat X:"
+msgstr ""
+
+#: includes/admin/style.php:324
+msgid "Repeat Y:"
+msgstr ""
+
+#: includes/admin/style.php:325
+msgid "Repeat X and Y:"
+msgstr ""
+
+#: includes/admin/style.php:361
+msgid "Menu"
+msgstr ""
+
+#: includes/admin/style.php:368
+msgid "Sticky:"
+msgstr ""
+
+#: includes/admin/style.php:369
+msgid "Fixed:"
+msgstr ""
+
+#: includes/admin/style.php:382
+msgid "Header Style"
+msgstr ""
+
+#: includes/admin/style.php:390
+msgid "Centered:"
+msgstr ""
+
+#: includes/admin/style.php:423
+msgid "Page Layout"
+msgstr ""
+
+#: includes/admin/style.php:430
+msgid "Boxed:"
+msgstr ""
+
+#: includes/admin/style.php:431
+msgid "Wide:"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:171
+#: includes/lib/class-tgm-plugin-activation.php:155
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:172
+#: includes/lib/class-tgm-plugin-activation.php:156
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:173
+#: includes/lib/class-tgm-plugin-activation.php:157
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:174
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/admin/functions/default-values.php:185
+#: includes/lib/class-tgm-plugin-activation.php:169
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:186
+#: includes/lib/class-tgm-plugin-activation.php:171
+#: includes/lib/class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/admin/functions/default-values.php:187
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/home-blocks/latest-news-1.php:29
+#: includes/home-blocks/latest-news-2.php:29
+#: includes/home-blocks/latest-news-3.php:17
+#: includes/home-blocks/latest-news-4.php:19
+#: includes/home-blocks/latest-news-5.php:17
+#: includes/home-blocks/latest-news-6.php:16
+#: includes/home-blocks/latest-news-7.php:18
+#: includes/home-blocks/latest-news-8.php:18
+#: includes/home-blocks/reviews.php:18 includes/home-blocks/shop.php:20
+msgid "View all"
+msgstr ""
+
+#: includes/home-blocks/latest-news-1.php:86
+#: includes/home-blocks/latest-news-1.php:87
+#: includes/home-blocks/latest-news-1.php:169
+#: includes/home-blocks/latest-news-1.php:170
+#: includes/home-blocks/latest-news-5.php:58
+#: includes/home-blocks/latest-news-5.php:59
+#: includes/home-blocks/latest-news-6.php:54
+#: includes/home-blocks/latest-news-6.php:55
+#: includes/home-blocks/reviews.php:72 includes/home-blocks/reviews.php:73
+#: includes/loop/post.php:111 includes/loop/post.php:112
+#: includes/single/post-ratings.php:75 includes/single/post-ratings.php:76
+msgid "out of 5"
+msgstr ""
+
+#: includes/home-blocks/latest-news-1.php:111
+#: includes/home-blocks/latest-news-1.php:194
+#: includes/home-blocks/latest-news-5.php:87
+#: includes/home-blocks/latest-news-7.php:83
+#: includes/home-blocks/latest-news-8.php:82 includes/loop/post.php:136
+#: includes/loop/post.php:185
+msgid "Read more"
+msgstr ""
+
+#: includes/home-blocks/latest-news-6.php:136
+msgid "Show all posts"
+msgstr ""
+
+#: includes/home-blocks/reviews.php:44 includes/sliders/carousel.php:68
+#: includes/sliders/carousel.php:69 includes/sliders/grid.php:73
+#: includes/sliders/grid.php:74
+msgid "of 5"
+msgstr ""
+
+#: includes/home-blocks/shop.php:35
+msgid "Sale!"
+msgstr ""
+
+#: includes/home-blocks/shop.php:66
+msgid "Please set up WooCommerce Plugin"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:172
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1950
+#: includes/lib/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1950
+#: includes/lib/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/loop/no-post.php:17
+msgid "No Articles Found"
+msgstr ""
+
+#: includes/loop/no-post.php:18
+#, php-format
+msgid ""
+"Sorry, there are no articles here ! <br/>You can <a href=\"%1$s\">contact "
+"us</a> to resolve this problem !"
+msgstr ""
+
+#: includes/loop/no-post.php:19
+#, php-format
+msgid "Or You can still <a href=\"%1$s\">go back to Homepage</a> !"
+msgstr ""
+
+#: includes/loop/post.php:111 includes/single/post-ratings.php:75
+msgid "Rated"
+msgstr ""
+
+#: includes/shortcodes/gallery-box.php:44
+msgid "View Gallery"
+msgstr ""
+
+#: includes/single/post-nav.php:14
+msgid "Previous post"
+msgstr ""
+
+#: includes/single/post-nav.php:21
+msgid "Next post"
+msgstr ""
+
+#: includes/single/post-ratings.php:57
+#: includes/widgets/widget-goodstart-reviews.php:146
+msgid "Excellent"
+msgstr ""
+
+#: includes/single/post-ratings.php:59
+#: includes/widgets/widget-goodstart-reviews.php:148
+msgid "Good"
+msgstr ""
+
+#: includes/single/post-ratings.php:61
+#: includes/widgets/widget-goodstart-reviews.php:150
+msgid "Average"
+msgstr ""
+
+#: includes/single/post-ratings.php:63
+#: includes/widgets/widget-goodstart-reviews.php:152
+msgid "Fair"
+msgstr ""
+
+#: includes/single/post-ratings.php:65
+#: includes/widgets/widget-goodstart-reviews.php:154
+msgid "Poor"
+msgstr ""
+
+#: includes/single/post-ratings.php:67
+#: includes/widgets/widget-goodstart-reviews.php:156
+msgid "Very Poor"
+msgstr ""
+
+#: includes/single/post-related.php:36
+msgid "Related articles"
+msgstr ""
+
+#: includes/single/post-related.php:78
+msgid "Sorry, no posts were found."
+msgstr ""
+
+#: includes/single/post-share.php:7
+msgid "Check out this article: "
+msgstr ""
+
+#: includes/single/post-share.php:14
+msgid "Facebook"
+msgstr ""
+
+#: includes/single/post-share.php:18
+msgid "Twitter"
+msgstr ""
+
+#: includes/single/post-share.php:22
+msgid "Google+"
+msgstr ""
+
+#: includes/single/post-share.php:26
+msgid "Pinterest"
+msgstr ""
+
+#: includes/single/post-share.php:30
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/single/post-share.php:34
+msgid "Email"
+msgstr ""
+
+#: includes/single/post-tags-categories.php:22
+msgid "Tags"
+msgstr ""
+
+#: includes/sliders/breaking-news.php:40
+msgid "Breaking news"
+msgstr ""
+
+#: includes/sliders/carousel.php:98 includes/sliders/parallax.php:70
+#: includes/sliders/slider.php:95
+msgid ""
+"No posts where found, please edit a post and set it as main slider post."
+msgstr ""
+
+#: includes/sliders/grid.php:98
+msgid ""
+"No posts where found, please edit a post and set it as main slider/grid post."
+msgstr ""
+
+#: includes/sliders/grid.php:105
+msgid "Please select categories by editing the page"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:36
+msgid "Link 1:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:37
+msgid "Image Url 1:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:39
+msgid "Link 2:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:40
+msgid "Image Url 2:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:42
+msgid "Link 3:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:43
+msgid "Image Url 3:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:45
+msgid "Link 4:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:46
+msgid "Image Url 4:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:88
+msgid "Banner"
+msgstr ""
+
+#: includes/widgets/widget-ad300x250.php:35
+msgid ""
+"A widget that allows the display and configuration of of a single 300x250 "
+"Banner."
+msgstr ""
+
+#: includes/widgets/widget-ad300x250.php:41
+msgid " Custom 300x250 Ad"
+msgstr ""
+
+#: includes/widgets/widget-ad300x250.php:135
+msgid "Ad image url:"
+msgstr ""
+
+#: includes/widgets/widget-ad300x250.php:141
+msgid "Ad link url:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-about.php:6
+msgid "Widget With Image And Text"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-comments.php:6
+msgid " Latest Comments"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-comments.php:12
+msgid "Recent Comments"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-comments.php:24
+msgid "Comment count:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-comments.php:85
+msgid "says:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-instagram.php:28
+msgid "Click here to get your access token and user id"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-instagram.php:29
+msgid "User ID:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-instagram.php:30
+msgid "Access Token:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-instagram.php:31
+msgid "Image Count:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-instagram.php:94
+msgid "Please check your widget settings!"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-latest-posts.php:6
+#: includes/widgets/widget-goodstart-latest-posts.php:12
+msgid "Latests News"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-latest-posts.php:27
+#: includes/widgets/widget-goodstart-popular-posts.php:26
+#: includes/widgets/widget-goodstart-reviews.php:29
+#: includes/widgets/widget-goodstart-timeline.php:24
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-latest-posts.php:47
+#: includes/widgets/widget-goodstart-popular-posts.php:46
+msgid "Images:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-latest-posts.php:54
+#: includes/widgets/widget-goodstart-popular-posts.php:53
+#: includes/widgets/widget-goodstart-reviews.php:56
+#: includes/widgets/widget-goodstart-timeline.php:44
+msgid "Post count:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-popular-posts.php:6
+#: includes/widgets/widget-goodstart-popular-posts.php:12
+msgid "Popular Posts"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-reviews.php:171
+#: includes/widgets/widget-goodstart-reviews.php:172
+msgid " out of 5"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-social.php:12
+msgid "Socialize"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-social.php:25
+msgid "Subitle:"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-social.php:73
+#: includes/widgets/widget-goodstart-social.php:100
+msgid "Shares"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-social.php:82
+msgid "Tweets"
+msgstr ""
+
+#: includes/widgets/widget-goodstart-social.php:91
+msgid "+1's"
+msgstr ""

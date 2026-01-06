@@ -1,0 +1,21 @@
+Version 1.0.3
+* Edited Files
+style.css
+includes/single/post-share.php
+
+
+Version 1.0.2
+* Edited Files
+style.css
+includes/single/post-share.php
+includes/widgets/widget-goodstart-social.php
+woocommerce/content-product.php
+
+Version 1.0.1
+* Edited Files
+style.css
+includes/top.php
+functions/breadcrumbs.php
+
+Version 1.0.0V
+* Initial Release
