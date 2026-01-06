@@ -4,9 +4,11 @@
 
 	//post tags
 	$posttags = get_the_tags();
+	$posttags = is_array($posttags) ? $posttags : array();
 	$tagCount = count($posttags);
 
 	$categories = get_the_category();
+	$categories = is_array($categories) ? $categories : array();
 	$catCount = count($categories);
 ?>
 	<?php if (($posttags && df_option_compare('post_tag_single','post_tag',$post->ID)==true)) { ?>

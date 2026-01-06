@@ -15,8 +15,8 @@ function get_post_thumb($post_id,$width,$height,$custom="image", $file=false, $o
 
 	$show_no_image = df_get_option(THEME_NAME."_show_no_image_thumb");
 	if($post_id!=false) {
-		$custom_image = get_post_custom_values($custom,$post_id);	//get custom field value
-		$custom_image = $custom_image[0];
+		$custom_values = get_post_custom_values($custom, $post_id);	//get custom field value
+		$custom_image = (is_array($custom_values) && isset($custom_values[0])) ? $custom_values[0] : false;
 	} else {
 		$custom_image = false;
 	}
@@ -28,8 +28,8 @@ function get_post_thumb($post_id,$width,$height,$custom="image", $file=false, $o
 	$first_from_post = false;				//get first image form post
 	
 	if($custom_image && $custom && $file==false) {		//built in thumb
-		$custom_image = get_post_custom_values($custom,$post_id);	//get custom field value
-		$file = $custom_image[0];
+		$custom_values = get_post_custom_values($custom, $post_id);	//get custom field value
+		$file = (is_array($custom_values) && isset($custom_values[0])) ? $custom_values[0] : false;
 		$src=array();
 		if($original==false) {
 			$src['url'] = mr_image_resize( $file, $width, $height, true, '', $retina );

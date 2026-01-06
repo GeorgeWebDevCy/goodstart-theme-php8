@@ -262,7 +262,8 @@ function df_management_save() {
 					$old_val = explode( "|*|", $old_val );
 					
 					if (!in_array($_REQUEST[ $value['id'] ], $old_val)) {
-						df_update_option( $value['id'].'s', $_REQUEST[ $value['id'].'s' ].sanitize_title($_REQUEST[ $value['id'] ])."|*|" ); 
+						$sidebar_value = isset($_REQUEST[ $value['id'] ]) ? (string) $_REQUEST[ $value['id'] ] : '';
+						df_update_option( $value['id'].'s', $_REQUEST[ $value['id'].'s' ].sanitize_title($sidebar_value)."|*|" ); 
 					}
 					
 				}
@@ -303,7 +304,7 @@ function df_delete_sidebar() {
 	print $update_sidebar;
 }
 function df_edit_sidebar() {
-	$new_sidebar_name = sanitize_title($_POST['sidebar_name']);
+	$new_sidebar_name = sanitize_title(isset($_POST['sidebar_name']) ? (string) $_POST['sidebar_name'] : '');
 	$old_name = $_POST['old_name'];
 
 	$sidebar_names = df_get_option( THEME_NAME."_sidebar_names" );

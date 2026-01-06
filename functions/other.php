@@ -2026,9 +2026,9 @@ function df_get_current_post_type() {
   
  	 //lastly check the post_type querystring
   	elseif( isset( $_REQUEST['post_type'] ) )
-    	return sanitize_key( $_REQUEST['post_type'] );
+    	return sanitize_key( (string) $_REQUEST['post_type'] );
 
-	elseif (get_post_type(isset($_REQUEST['post'])))
+	elseif (isset($_REQUEST['post']))
         return get_post_type($_REQUEST['post']);
 
   	//we do not know the post type!
